@@ -1,146 +1,133 @@
-//var numero = 6
- 
-// if (numero == 5){
-    //bloco de execucao
- //   console.log("Executando bloco de execucao")
+//**var numero = parseFloat(prompt("Digite um numero:"))
 
-// }
-// else {
- //   console.log("Executando bloco de execucao false")
- //}
+///if ((numero >= 10) && (numero <= 50)) {
+ // alert("Numero esta dentro do esperado")
+//}
+//else{
+ // console.log("Numero errado, tente de novo")
+//}  
 
 
-// if (numero == 6) {
-  //  console.log("Executando o bloco de execucao false")
- //}
+///////////////////////////////////////////////////////////////////////////////////////////
 
- ///////////////////////////////////////////////
+//function saudade(){
+  //console.log("Ola, estudantes");
 
- //var combustivel = "Alcool"
-
- //if (combustivel == "Gas") {
-//    alert("O carro é movido a gas")
- //}
-// else if (combustivel == "Gasolina"){
- //   alert("O carro é movido a Gasolina")
-// }
-// else if (combustivel == "Alcool"){
-//    alert("O carro é movido a Alcool")
-// }
-//else  {
- //   alert("O carro é movido a ar")
- //}
-
- ///var numero = parseFloat(prompt("Insira um numero de 1 a 5:"))
- //if (numero == 1) {
-  //  alert("Numero um")
- //}
- //else if (numero == 2) {
- //   alert("Numero dois")
- //}
- //else if (numero == 3) {
- //   alert("Numero tres")
- //}
- //else if (numero == 4) {
- //   alert("Numero quatro")
- //}
- //else if (numero == 5) {
- //   alert("Numero cinco")
- //}
- //else {
- //   alert("Voce nao digitou nenhum dos numeros pedido.")
-// } 
-
-///////////////////////////////////////////
-
-//var numero = parseFloat(prompt("Digite um numero"))
-//console.log(typeof(numero))
-//if (numero == 1) {
-   //   alert("Numero um")
-  // }
-  // else if (numero == 2) {
-  //    alert("Numero dois")
-  // }
-  // else if (numero == 3) {
-  //    alert("Numero tres")
- //  }
- //  else if (numero == 4) {
- //     alert("Numero quatro")
- //  }
- //  else if (numero == 5) {
- //     alert("Numero cinco")
- //  }
- //  else {
-   //   alert("Voce nao digitou nenhum dos numeros pedido.")
-  // }
-
-  /////////////////////////////////////////////////////////////
+//}
+//saudade();
 
 
-  ///var nome = prompt("Digite um nome:")
-  ///var sobreNOme = prompt("Digite um sobrenome:")
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//function recebeNumero(){
+ // var numero = parseFloat(prompt("Digite um numero:"));
 
- //if ((nome != "") && (sobreNOme != "")){
-   // alert(nome + " " + sobreNOme)
- // }else {
- //   alert("Insira um nome e um sobrenome")
+ // if(numero % 2 == 0) {
+ //   alert("Numero digitado é par")
+
+//  }
+ // else{
+ //   alert("Numero digitado é Impar")
+
+//  }
+
+//}
+//recebeNumero();
+//recebeNumero();
+//recebeNumero();
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+//function unirPalavras(palavra1, palavra2)
+//{
+ // console.log(palavra1 + " " + palavra2)
+//}
+
+//unirPalavras("Ola,", "Coder");
+//unirPalavras("Cursando,", "Js");
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//var resultado =0;
+
+//function somar(primeiroNumero, segundoNumero){
+ // resultado = primeiroNumero + segundoNumero
+//}
+
+//function mostrar(mensagem) {
+//  console.log(mensagem)
+//}
+
+//somar(6, 3)
+//mostrar(resultado)
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//function somar(primeiroNumero, segundoNumero){
+ // return primeiroNumero + segundoNumero
+//}
+//var resultado = somar(5, 8);
+//console.log(resultado)
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//function calculadora(primeiroNumero, segundoNumero, operacao) {
+  //if (operacao == "+") {
+ //     return primeiroNumero + segundoNumero;
  // }
-
-/////////////////////////////////////
-
- ///function verificaFamilia30(numero) {
-   ///     if ((numero >= 30) && (numero < 40)) {
-   ///         console.log(numero, "-> Família numérica do 30");
-   //     } else {
-   //         console.log(numero, "-> Família não identificada");
-   //     }
-   // }
-    
-   // verificaFamilia30(30) 
-   // verificaFamilia30(35)
-   // verificaFamilia30(20)
-   // verificaFamilia30(50)
-
-   /////////////////////////////////////////////////
-
-   ///var x =10
-   ///var y = 20
-  /// if(!(x > y)) {
-   // console.log("Entrei aqui")
-  // }
-  // else{
-  //  console.log("Não entrei aqui")
-  // }
-
-
-  ////////////////////////////////////////////////////////////////////////////////////////
-
-  ///var idade = prompt("Digite uma idade:")
-  ///if(idade < 18){
-   // alert("Voce ainda nao pode tomar uma ceva")
-
+ // else if (operacao == "-") {
+ //     return primeiroNumero - segundoNumero;
  // }
- // else if ((idade >= 18) && (idade < 60)){
- //   alert("Voce e aduto pode tomar um ceva")
+ // else if (operacao == "*") {
+ //     return primeiroNumero * segundoNumero;
  // }
- // else {
- //   alert("Voce é idose, beba com moderacao")
+ // else if (operacao == "/") {
+ //     return primeiroNumero / segundoNumero;
+//  }
+//  else {
+ //     return 0;
+//  }
+//}
+//console.log(   calculadora(10, 5, "*")    );
 
- // }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//function subtrair(num1, num2){
+  //let resultado;
+ // if(num1 > num2){
+ //     resultado = num1 - num2; 
+ //     console.log("O primeiro numero é maior que o segundo", resultado);
+ // }else{
+//  resultado = num2 - num1;
+//  console.log("O segundo numero é maior que o primeiro", resultado);
+//  }
+//}
+//let numero1 = parseFloat(prompt("Digite o primeiro numero:"));
+
+//let numero2 = parseFloat(prompt("Digite o segundo numero:"));
+
+//subtrair(numero1, numero2);
 
 
- ////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+var resultado = (primeiroNumero, segundoNumero, operacao) => {
+if (operacao == "+") {
+      return primeiroNumero + segundoNumero;
+  }
+  else if (operacao == "-") {
+      return primeiroNumero - segundoNumero;
+  }
+  else if (operacao == "*") {
+      return primeiroNumero * segundoNumero;
+  }
+  else if (operacao == "/") {
+      return primeiroNumero / segundoNumero;
+  }
+       return 0;
+  }
+  let primeiroNumero = parseFloat(prompt("Digite o primeiro numero"));
+  let segundoNumero = parseFloat(prompt("Digite o segundo numero"));
+  let operacao = (prompt("Digite a operacao desejada"));
 
- var letra = prompt("Digite uma letra")
+  alert(resultado(primeiroNumero, segundoNumero, operacao));
 
- if ((letra === null) || (letra === "")) {
-  alert("Nenhuma letra foi fornecida")
- }
- else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u" ||
-  letra === "A" || letra === "E" || letra === "I" || letra === "O" || letra === "U"){
-  alert("A letra é uma vogal")
- } 
- else {
-  alert("A letra nao é uma vogal")
- }
