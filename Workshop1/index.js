@@ -84,13 +84,75 @@
 
 
 //verificar numero par ou impar
-// function parOuImpar(numero){
-//   if(numero % 2 == 0){
-//     return "Par"
-//   }else{
+//  function parOuImpar(numero){
+//    if(numero % 2 == 0){
+//      return "Par"
+//    }else{
 //     return "Impar"
-//   }
+//    }
   
+//  }
+//  let numero = prompt(parseInt("Digite um numero"));
+//  console.log(parOuImpar(numero))
+
+
+
+//Receber um numero e informar estação do ano
+// function estacaoDoAno (mes){
+//   if (mes >=1 && mes <= 3){
+//     return "Verão"
+//   }
+//   else if(mes >= 4 && mes <= 6){
+//     return "Outono"
+//   }
+//   else if (mes >= 7 && mes <= 9){
+//     return "Inverno"
+//   }
+//   else if (mes >= 10 && mes <= 12){
+//     return "Primavera"
 // }
-// let numero = prompt(parseInt("Digite um numero"));
-// alert(parOuImpar(numero))
+// else{
+//   return "Digite um mes valido!!!"
+// }
+// }
+
+// console.log(estacaoDoAno(13))
+
+
+///Temperatura
+// function conversorTemperatura(temperatura){
+//   let celsius = (temperatura - 32) * (5 / 9)
+//   return celsius;
+
+// }
+// console.log(conversorTemperatura(32))
+// console.log(conversorTemperatura(68))
+
+
+//informe numero
+// function solicitarNumero(){
+// let numero;
+// do{
+//   numero = parseInt(prompt("Digite um numero:"));
+// }
+// while(!numeroPrimo(numero))
+// console.log(numero + " É primo")
+// }
+
+// function numeroPrimo(numero){
+//   if(numero <= 1){
+//     return false;
+//   }
+//   for (let i = 2; i <= numero / 2; i++){
+//     if(numero % i == 0){
+//       return false;
+//     }
+//   }return true;
+// }
+
+// solicitarNumero();
+// console.log(numeroPrimo(4));
+
+
+//loop mes
+var numeroMes;
