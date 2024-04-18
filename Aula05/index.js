@@ -10,3 +10,4 @@ function somar(primeiroNumero, segundoNumero){
 
 somar(10,20)
 console.log("Resultado", resultado)
+Aula05/index.js
